@@ -1,8 +1,6 @@
-<script>window.onload=_=>document.body.firstElementChild.firstElementChild.innerHTML='<a href="https://github.com/lxhom/NoRestrictions">Github page</a> | <a href="/NoRestrictions'>YT Link converter</a>"
-
 # No Restrictions
 
-([TL;DR available](#tldr))
+[TL;DR](#tldr) | [GitHub Page](https://github.com/lxhom/NoRestrictions) | [YT Link converter](https://www.nores.ml/NoRestrictions)
 
 ## Introduction
 
