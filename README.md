@@ -6,6 +6,8 @@
 
 No Restrictions is a Tool for YouTube to avoid age restrictions. It is a JavaScript that should be executed on the nores website or the YouTube page that injects the direct video link into the player error page and thus displays the video. Credits to the guys at [youtube-dl](https://github.com/ytdl-org/youtube-dl) for figuring out [how to get the direct video link](https://github.com/ytdl-org/youtube-dl/blob/4759543f6e5d532795eb1d5434692bb6d5e1f0ec/youtube_dl/extractor/youtube.py), which is one of the main features of this program. You should definitely check out youtube-dl :D
 
+> NOTE: No Restrictions is still in a beta phase. It can only view age-restricted videos right now, but other videos are on my to-do list. :)
+
 ## Usage
 
 > NOTE: Safari Users can only use Method 1/2.
