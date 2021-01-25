@@ -28,11 +28,11 @@ There are 5 main ways to use No Restrictions:
 
 - Method 2: Visit a YouTube video (for example https://www.youtube.com/watch?v=dQw4w9WgXcQ) and replace the `www.youtube.com` (or `youtube.com` if there is no `www`) with `www.nores.ml` (for example https://www.nores.ml/watch?v=dQw4w9WgXcQ)
 
-- Method 3: Click on the URL bar of a YouTube tab, type `javascript:` (***You HAVE to type it or this method WON'T WORK***) and paste the text from [the `jsurl` file](/jsurl) or from [below](#the-javascript-url) after the `javascript:` text, and hit Enter.
+- Method 3: Click on the URL bar of a YouTube tab, type `javascript:` (***You HAVE to type it or this method WON'T WORK***) and paste the text from [the `jsurl` file](https://github.com/lxhom/NoRestrictions/blob/main/jsurl) or from [below](#the-javascript-url) after the `javascript:` text, and hit Enter.
 
-- Method 4: You can create a Bookmarklet by importing a Netscape Bookmark File (supported by all modern desktop browsers and a few mobile browsers). Go to your browser's bookmarks page and click on *Import Bookmarks* (this might be hidden in a menu, for example in Chrome Desktop it's in the menu at the top right) and select Bookmarks.html. You can download the Bookmarks.html file [here](/Bookmarks.html). Or you can manually create it by making a new Bookmark with the `javascript:` URL from [the `jsurl` file](/jsurl) or from [below](#the-javascript-url). Click on *Create new Bookmark*, enter `No Restrictions` as the name and enter the `javascript:` URL as the URL.
+- Method 4: You can create a Bookmarklet by importing a Netscape Bookmark File (supported by all modern desktop browsers and a few mobile browsers). Go to your browser's bookmarks page and click on *Import Bookmarks* (this might be hidden in a menu, for example in Chrome Desktop it's in the menu at the top right) and select Bookmarks.html. You can download the Bookmarks.html file [here](/Bookmarks.html). Or you can manually create it by making a new Bookmark with the `javascript:` URL from [the `jsurl` file](https://github.com/lxhom/NoRestrictions/blob/main/jsurl) or from [below](#the-javascript-url). Click on *Create new Bookmark*, enter `No Restrictions` as the name and enter the `javascript:` URL as the URL.
 
-- Method 5: Copy the [main.js file](/main.js) into your console.
+- Method 5: Copy the [main.js file](https://github.com/lxhom/NoRestrictions/blob/main/main.js) into your console.
 
 ## TL;DR
 
