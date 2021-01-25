@@ -8,28 +8,35 @@ No Restrictions is a Tool for YouTube to avoid age restrictions. It is a JavaScr
 
 ## Usage
 
-> NOTE: Safari Users can only use Method 0.
+> NOTE: Safari Users can only use Method 1/2.
 
-There are 4 main ways to use No Restrictions:
+There are 5 main ways to use No Restrictions:
 
-0. Use the No Restrictions Webpage. The easiest method, recommended if you dont want to use Web Injects.
-1. Injecting the script with a special `javascript:` URL. Recommended for single-use.
-2. Injecting the script with a Bookmark with a `javascript:` URL, a.k.a a *Bookmarklet* (short for **Bookmark**ed JavaScript App**let**). Recommended for repeated use. This works basically everywhere.
-3. Pasting the script into the JavaScript Console of the Browser Development Tools, a.k.a *Inspect Element*. Not recommended for beginners. This works only on Development or Desktop browsers.
+1. Use the No Restrictions Webpage. The easiest method, recommended if you dont want to use Web Injects.
+
+2. Use the No Restrictions Replacer URL. The fastest method, reccomended if you are lazy.
+
+3. Injecting the script with a special `javascript:` URL. Recommended for single-use for advanced users.
+
+4. Injecting the script with a Bookmark with a `javascript:` URL, a.k.a a *Bookmarklet* (short for **Bookmark**ed JavaScript App**let**). Recommended for repeated use for advanced users. This works basically everywhere.
+
+5. Pasting the script into the JavaScript Console of the Browser Development Tools, a.k.a *Inspect Element*. Only for advanced users. This works only on Development or Desktop browsers.
 
 ### Installation / Injection
 
-- Method 0: Go to https://lxhom.github.io/NoRestrictions/NoRestrictions.html and paste the URL of a YouTube video into the popup and hit OK.
+- Method 1: Go to https://www.nores.ml/NoRestrictions (don't forget the `www.`) and paste the URL of a YouTube video into the popup and hit OK.
 
-- Method 1: Click on the URL bar of a YouTube tab, type `javascript:` (***You HAVE to type it or this method WON'T WORK***) and paste the text from [the `jsurl` file](/jsurl) or from [below](#the-javascript-url) after the `javascript:` text, and hit Enter.
+- Method 2: Visit a YouTube video (for example https://www.youtube.com/watch?v=dQw4w9WgXcQ) and replace the `www.youtube.com` (or `youtube.com` if there is no `www`) with `www.nores.ml` (for example https://www.nores.ml/watch?v=dQw4w9WgXcQ)
 
-- Method 2: You can create a Bookmarklet by importing a Netscape Bookmark File (supported by all modern desktop browsers and a few mobile browsers). Go to your browser's bookmarks page and click on *Import Bookmarks* (this might be hidden in a menu, for example in Chrome Desktop it's in the menu at the top right) and select Bookmarks.html. You can download the Bookmarks.html file [here](/Bookmarks.html). Or you can manually create it by making a new Bookmark with the `javascript:` URL from [the `jsurl` file](/jsurl) or from [below](#the-javascript-url). Click on *Create new Bookmark*, enter `No Restrictions` as the name and enter the `javascript:` URL as the URL.
+- Method 3: Click on the URL bar of a YouTube tab, type `javascript:` (***You HAVE to type it or this method WON'T WORK***) and paste the text from [the `jsurl` file](/jsurl) or from [below](#the-javascript-url) after the `javascript:` text, and hit Enter.
 
-- Method 3: Copy the [main.js file](/main.js) into your console.
+- Method 4: You can create a Bookmarklet by importing a Netscape Bookmark File (supported by all modern desktop browsers and a few mobile browsers). Go to your browser's bookmarks page and click on *Import Bookmarks* (this might be hidden in a menu, for example in Chrome Desktop it's in the menu at the top right) and select Bookmarks.html. You can download the Bookmarks.html file [here](/Bookmarks.html). Or you can manually create it by making a new Bookmark with the `javascript:` URL from [the `jsurl` file](/jsurl) or from [below](#the-javascript-url). Click on *Create new Bookmark*, enter `No Restrictions` as the name and enter the `javascript:` URL as the URL.
+
+- Method 5: Copy the [main.js file](/main.js) into your console.
 
 ## TL;DR
 
-Bypass YTs Age Restrictions. Either use [this link](https://lxhom.github.io/NoRestrictions/NoRestrictions.html) and paste the YouTube Video URL or use the 2nd method (Web Inject): Click on the URL bar of a YouTube tab, type `javascript:` (***Type it or it WON'T WORK***) and paste the code below and hit Enter.
+Bypass YTs Age Restrictions. Either use https://www.nores.ml/NoRestrictions and paste the YouTube Video URL or replace the `www.youtube.com` (or `youtube.com` if there is no `www`) with `www.nores.ml` on a YouTube Page or use the 3nd method (Web Inject): Click on the URL bar of a YouTube tab, type `javascript:` (***Type it or it WON'T WORK***) and paste the code below and hit Enter.
 
 ### The `javascript:` URL
 
