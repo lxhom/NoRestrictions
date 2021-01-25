@@ -6,17 +6,20 @@
 
 No Restrictions is a Tool for YouTube to avoid age restrictions. It is a JavaScript that should be executed on the YouTube page that injects the direct video link into the player error page and thus displays the video. Credits to the guys at [youtube-dl](https://github.com/ytdl-org/youtube-dl) for figuring out [how to get the direct video link](https://github.com/ytdl-org/youtube-dl/blob/4759543f6e5d532795eb1d5434692bb6d5e1f0ec/youtube_dl/extractor/youtube.py), which is one of the main features of this program. You should definitely check out youtube-dl :D
 
-> wip: testing safari & webpage without injection with cors-anywhere
-
 ## Usage
 
-There are 3 main ways to use No Restrictions:
+> NOTE: Safari Users can only use Method 0.
 
+There are 4 main ways to use No Restrictions:
+
+0. Use the No Restrictions Webpage. The easiest method, recommended if you dont want to use Web Injects.
 1. Injecting the script with a special `javascript:` URL. Recommended for single-use.
 2. Injecting the script with a Bookmark with a `javascript:` URL, a.k.a a *Bookmarklet* (short for **Bookmark**ed JavaScript App**let**). Recommended for repeated use. This works basically everywhere.
 3. Pasting the script into the JavaScript Console of the Browser Development Tools, a.k.a *Inspect Element*. Not recommended for beginners. This works only on Development or Desktop browsers.
 
 ### Installation / Injection
+
+- Method 0: Go to https://lxhom.github.io/NoRestrictions/NoRestrictions.html and paste the URL of a YouTube video into the popup and hit OK.
 
 - Method 1: Click on the URL bar of a YouTube tab, type `javascript:` (***You HAVE to type it or this method WON'T WORK***) and paste the text from [the `jsurl` file](/jsurl) or from [below](#the-javascript-url) after the `javascript:` text, and hit Enter.
 
@@ -26,7 +29,7 @@ There are 3 main ways to use No Restrictions:
 
 ## TL;DR
 
-Bypass YTs Age Restrictions. Click on the URL bar of a YouTube tab, type `javascript:` (***Type it or it WON'T WORK***) and paste the code below and hit Enter.
+Bypass YTs Age Restrictions. Either use [this link](https://lxhom.github.io/NoRestrictions/NoRestrictions.html) and paste the YouTube Video URL or use the 2nd method (Web Inject): Click on the URL bar of a YouTube tab, type `javascript:` (***Type it or it WON'T WORK***) and paste the code below and hit Enter.
 
 ### The `javascript:` URL
 
