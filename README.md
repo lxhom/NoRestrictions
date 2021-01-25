@@ -1,10 +1,12 @@
+<script>window.onload=_=>document.body.firstElementChild.firstElementChild.innerHTML='<a href="https://github.com/lxhom/NoRestrictions">Github page</a> | <a href="/NoRestrictions'>YT Link converter</a>"
+
 # No Restrictions
 
 ([TL;DR available](#tldr))
 
 ## Introduction
 
-No Restrictions is a Tool for YouTube to avoid age restrictions. It is a JavaScript that should be executed on the YouTube page that injects the direct video link into the player error page and thus displays the video. Credits to the guys at [youtube-dl](https://github.com/ytdl-org/youtube-dl) for figuring out [how to get the direct video link](https://github.com/ytdl-org/youtube-dl/blob/4759543f6e5d532795eb1d5434692bb6d5e1f0ec/youtube_dl/extractor/youtube.py), which is one of the main features of this program. You should definitely check out youtube-dl :D
+No Restrictions is a Tool for YouTube to avoid age restrictions. It is a JavaScript that should be executed on the nores website or the YouTube page that injects the direct video link into the player error page and thus displays the video. Credits to the guys at [youtube-dl](https://github.com/ytdl-org/youtube-dl) for figuring out [how to get the direct video link](https://github.com/ytdl-org/youtube-dl/blob/4759543f6e5d532795eb1d5434692bb6d5e1f0ec/youtube_dl/extractor/youtube.py), which is one of the main features of this program. You should definitely check out youtube-dl :D
 
 ## Usage
 
