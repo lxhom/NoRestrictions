@@ -3,7 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>No Restrictions Player</title>
-  <script async src="main.js"></script>
+  <script>
+    document.onload = () => {
+      var resource = document.createElement('script'); 
+      resource.src = "https://lxhom.github.io/NoRestrictions/main.js";
+      var script = document.getElementsByTagName('script')[0];
+      script.parentNode.insertBefore(resource, script);
+    }
+  </script>
 </head>
 <body>
   Loading Page...
