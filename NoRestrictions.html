@@ -18,6 +18,7 @@
       data = await (await fetch("https://cors-anywhere.herokuapp.com/https://www.youtube.com/get_video_info?video_id="+prompt("You are not on YouTube, please enter a YouTube Video URL:").match(/v\=[a-zA-z0-9-\_]{11}/)[0].toString().substring(2,13))).text();
     }
   };
+  console.log(data);
   let responseObject = {};
   data.split("&").forEach((value) => {
     kv = value.split("=");
