@@ -42,7 +42,7 @@ Try watching HowToBasic's How To Have S\*x video [NSFW] on [YouTube](https://www
 
 ### TL;DR
 
-Bypass YTs Age Restrictions. Either use [NoRes.ml/watch](https://www.nores.ml/watch) and paste the YouTube Video URL or replace the `www.youtube.com` (or `youtube.com` if there is no `www`) with `www.nores.ml` on a YouTube Page or use the 3nd method (Web Inject): Click on the URL bar of a YouTube tab, type `javascript:` (***Type it or it WON'T WORK***) and paste the code below and hit Enter.
+Bypass YTs Age Restrictions. Either use [NoRes.ml/watch](https://www.nores.ml/watch) and paste the YouTube Video URL - or replace the `www.youtube.com` (or `youtube.com` if there is no `www`) with `www.nores.ml` on a YouTube Page - or use the 3nd method (Web Inject): Click on the URL bar of a YouTube tab, type `javascript:` (***Type it or it WON'T WORK***) and paste the code below and hit Enter.
 
 ### The `javascript:` URL
 
