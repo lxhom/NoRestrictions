@@ -5,8 +5,8 @@
   <title>No Restrictions Player</title>
   <script>
     window.onload = async function(data = "") {
+      console.log("aaaaaa");
   if (document.querySelector('#error-screen > #container') == null) {
-    console.log("aaaaaa");
     document.body.outerHTML="<body style='margin: 0; width: 100vw; height: 100vh'></body>";
   };
   (document.querySelector('#error-screen > #container') != null ? document.querySelector('#error-screen > #container') : document.body).innerHTML = '<div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center;"><h1>Loading...</h1></div>';
