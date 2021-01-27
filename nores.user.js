@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         NoRestrictions Tampermonke thingy
+// @name         NoRes TamperMonkey thingy
 // @version      0.1
 // @description  monke
 // @author       lxhom (code), 0x0verflow (style)
