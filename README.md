@@ -9,7 +9,21 @@ No Restrictions is a Tool for YouTube to avoid age restrictions. It is a JavaScr
 > NOTE: No Restrictions is still in a beta phase. It can only view age-restricted videos right now, but other videos are on my to-do list. :)
 
 ## Usage
+### Via TamperMonke(y) - one time installation
+Using NoRes via TamperMonkey is relatively easy. To install it, do the following:
 
+1. Install TamperMonkey for your browser:
+   - Firefox: https://addons.mozilla.org/firefox/addon/tampermonkey/
+   - Chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=de
+   - ...
+   
+2. Install the NoRes userscript:
+   - Click the following link and confirm the installation: https://nores.ml/nores.user.js
+
+Aaaaand you're done. Now have fun watching some nasty things. I'd recommend Dead Meat for the beginning...
+
+
+### Via traditional methods - quick and easy
 > NOTE: Safari Users can only use Method 1/2.
 
 There are 5 main ways to use No Restrictions:
