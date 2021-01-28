@@ -33,7 +33,7 @@
                      <h1 style="cursor: default; margin-bottom: 5px; font-weight: 600; text-transform: uppercase;">CHOOSE A FORMAT.</h1>
                      <p style="cursor: default; color: #353535; font-size: 12px; font-weight: 600; margin-bottom: 10px; text-transform: uppercase;">THE VIDEO YOU\'VE BEEN TRYING TO PLAY HAS BEEN AGE RESTRICTED.</p>`;
   buttons.forEach((v) => {
-    html += `<button style="cursor: pointer; text-transform: uppercase; padding: 10px 30px; background: #181818; color: white; font-weight: 600; font-size=17px; border: none; border-radius: 2px; margin: 10px 10px 10px 0px;" onclick="(document.querySelector('#error-screen > #container') != null ? document.querySelector('#error-screen > #container') : document.body).innerHTML = '<iframe id=\\'lx-player\\' allowfullscreen=\\'true\\' src=\\'${v.link}\\' style=\\'width: 100%; height: 100%; border: 0;\\'></iframe>';window.lx_player=document.getElementById('lx-player'); window.lx_player.vid_url='` + location.href + `'">${v.format}</button>`;
+    html += `<button style="cursor: pointer; text-transform: uppercase; padding: 10px 30px; background: #181818; color: white; font-weight: 600; font-size=17px; border: none; border-radius: 2px; margin: 10px 10px 10px 0px;" onclick="(document.querySelector('#error-screen > #container') != null ? document.querySelector('#error-screen > #container') : document.body).innerHTML = '<iframe id=\\'lx-player\\' allowfullscreen=\\'true\\' src=\\'${v.link}\\' style=\\'width: 100%; height: 100%; border: 0;\\'></iframe>';window.lx_player=document.getElementById('lx-player'); window.lx_player.vid_url='${videoID}'">${v.format}</button>`;
   });
   html += "</div></div>";
   (document.querySelector('#error-screen > #container') != null ? document.querySelector('#error-screen > #container') : document.body).innerHTML = html;
@@ -42,7 +42,7 @@
         if (document.getElementsByTagName("yt-player-error-message-renderer").length != 0) {
             inserterFn();
         }
-        if (window.lx_player != undefined && window.lx_player.vid_url != location.href) {
+        if (window.lx_player != undefined && !(location.href.includes(window.lx_player.vid_url)) {
             window.lx_player.src = "";
             window.lx_player.remove();
             delete window.lx_player;
